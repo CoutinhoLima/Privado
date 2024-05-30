@@ -1,0 +1,8 @@
+nome = input("Escreva seu nome")
+peso = float(input("Escreva seu peso:"))
+altura = float(input("Qual a sua altura?"))
+imc = peso / (altura ** 2)
+print("Seu IMC é:" , imc)
+if(imc >= 30):print("Você está obeso")
+else: print("Vá se fuder")
+print(f"{nome} pesa {peso}kg e mede {altura}m, seu imc é {imc:.2f}")
