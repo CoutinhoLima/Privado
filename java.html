@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+ 
+</head>
+<body>
+    
+    <h1 id="titulo">Javascript</h1>
+    
+    <button id="botao1" onclick="mensagem('Teste de mensagem')">Meu Evento</button>
+    <button id="botao2">Meu Evento 2</button>
+ 
+ 
+    <h2>Registro de Usuário</h2>
+ 
+    <form method="post">
+        <label for="" style="display: block">
+            Nome <br>
+            <input type="text" id="nome" name="nome">
+        </label>
+ 
+        <label for=""style="display: block">
+            E-mail <br>
+            <input type="email" id="email" name="email">
+        </label>
+ 
+        <label for="" style="display: block">
+            Senha <br>
+            <input type="password" id="senha" name="senha">
+        </label>
+ 
+        <label for="" style="display: block">
+            Confirmar Senha <br>
+            <input type="password" id="confirmar" name="confirmar">
+        </label>
+ 
+        <div id="erro" style="color: red"></div>
+ 
+        <button id="btEnviar">Enviar</button>
+    </form>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
