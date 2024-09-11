@@ -10,7 +10,7 @@ def resolver_problemas():
     T2 = M2 / 2
 
     # Problema 03
-    A3 = 1400 / 3.5'
+    A3 = 1400 / 3.5
     F3 = 2 * A3
     J3 = A3 / 2
 
